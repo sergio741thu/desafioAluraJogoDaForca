@@ -1,0 +1,91 @@
+ 
+.witch {
+
+    transform: scale(0.5,0.5);
+    position: absolute; 
+    top: 250px;
+    left: 130px;
+}
+.face {
+    background-color: #ffcb9b;
+    height: 60px;
+    width: 80px;
+    border-radius: 0 100px 100px;
+    z-index: 1;
+    position: relative;
+}
+.eye {
+    background-color: #6155bd;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    left: 17.2px;
+    box-shadow: 0 -3px 0 5px #1f1a43, 37px 0 0 0 #6155bd,
+        37px -3px 0 5px #1f1a43;
+}
+
+.cloak {
+    height: 0;
+    width:60px;
+    border-bottom: 90px solid #0e0c29;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: relative;
+    right: -10px;
+}
+.hand-l {
+    background-color: #0e0c29;
+    height: 30px;
+    width: 70px;
+    position: relative;
+    right: 65px;
+    bottom: 0;
+    transform: rotate(20deg);
+    transform-origin: right;
+    animation: wave 2s infinite;
+}
+@keyframes wave {
+   50% {
+        transform: rotate(5deg);
+    }
+}
+.hand-l:before {
+    content: "";
+    position: absolute;
+    background-color: #ffcb9b;
+    height: 25px;
+    width: 20px;
+    right: 70px;
+    top: 2px;
+    border-radius: 10px 0 0 10px;
+}
+.stick {
+    background-color: #b35900;
+    height: 100px;
+    width: 20px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 100px;
+    left: -15px;
+}
+.hand-l:after {
+    content: "";
+    position: absolute;
+    background-color: #ffcb9b;
+    height: 20px;
+    width: 20px;
+    border-radius: 35px;
+    top: 10px;
+    right: 80px;
+}
+@media screen and (max-width: 480px) { 
+    .witch {
+
+    transform: scale(0.5,0.5);
+    position: absolute; 
+    top: 280px;
+    left: 60px;
+    }
+}
