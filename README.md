@@ -3,7 +3,7 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/sergio741thu/desafioAluraJogoDaForca/blob/main/LICENCE)
 # Sobre o Projeto
 
-https://artdesk.intersistem.com.br/jogoDaForca/
+https://sergio741thu.github.io/desafioAluraJogoDaForca
 
 O jogo da forca é uma aplicação full stack web e mobile, desenvolvida com base nos cursos da [Alura](https://www.alura.com.br/) .
 
